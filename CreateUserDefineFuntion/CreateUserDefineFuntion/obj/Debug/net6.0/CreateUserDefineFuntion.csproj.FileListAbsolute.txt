@@ -1,0 +1,15 @@
+C:\Users\Admin\Documents\Coding\MOBILE\CreateUserDefineFuntion\CreateUserDefineFuntion\bin\Debug\net6.0\CreateUserDefineFuntion.exe
+C:\Users\Admin\Documents\Coding\MOBILE\CreateUserDefineFuntion\CreateUserDefineFuntion\bin\Debug\net6.0\CreateUserDefineFuntion.deps.json
+C:\Users\Admin\Documents\Coding\MOBILE\CreateUserDefineFuntion\CreateUserDefineFuntion\bin\Debug\net6.0\CreateUserDefineFuntion.runtimeconfig.json
+C:\Users\Admin\Documents\Coding\MOBILE\CreateUserDefineFuntion\CreateUserDefineFuntion\bin\Debug\net6.0\CreateUserDefineFuntion.dll
+C:\Users\Admin\Documents\Coding\MOBILE\CreateUserDefineFuntion\CreateUserDefineFuntion\bin\Debug\net6.0\CreateUserDefineFuntion.pdb
+C:\Users\Admin\Documents\Coding\MOBILE\CreateUserDefineFuntion\CreateUserDefineFuntion\obj\Debug\net6.0\CreateUserDefineFuntion.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Coding\MOBILE\CreateUserDefineFuntion\CreateUserDefineFuntion\obj\Debug\net6.0\CreateUserDefineFuntion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Documents\Coding\MOBILE\CreateUserDefineFuntion\CreateUserDefineFuntion\obj\Debug\net6.0\CreateUserDefineFuntion.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\Coding\MOBILE\CreateUserDefineFuntion\CreateUserDefineFuntion\obj\Debug\net6.0\CreateUserDefineFuntion.AssemblyInfo.cs
+C:\Users\Admin\Documents\Coding\MOBILE\CreateUserDefineFuntion\CreateUserDefineFuntion\obj\Debug\net6.0\CreateUserDefineFuntion.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Coding\MOBILE\CreateUserDefineFuntion\CreateUserDefineFuntion\obj\Debug\net6.0\CreateUserDefineFuntion.dll
+C:\Users\Admin\Documents\Coding\MOBILE\CreateUserDefineFuntion\CreateUserDefineFuntion\obj\Debug\net6.0\refint\CreateUserDefineFuntion.dll
+C:\Users\Admin\Documents\Coding\MOBILE\CreateUserDefineFuntion\CreateUserDefineFuntion\obj\Debug\net6.0\CreateUserDefineFuntion.pdb
+C:\Users\Admin\Documents\Coding\MOBILE\CreateUserDefineFuntion\CreateUserDefineFuntion\obj\Debug\net6.0\CreateUserDefineFuntion.genruntimeconfig.cache
+C:\Users\Admin\Documents\Coding\MOBILE\CreateUserDefineFuntion\CreateUserDefineFuntion\obj\Debug\net6.0\ref\CreateUserDefineFuntion.dll
