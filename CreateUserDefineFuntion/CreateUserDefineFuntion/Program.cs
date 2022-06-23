@@ -1,4 +1,4 @@
-﻿//  Write a program in C# Sharp to create a user define function with parameters.
+//  Write a program in C# Sharp to create a user define function with parameters.
 using System;
 namespace exercises
 {
@@ -45,69 +45,57 @@ namespace exercises
                                     string wohen = Console.ReadLine().ToString();
                                     if (IsItString(wohen) && wohen != string.Empty)
                                     {
+                                        Console.WriteLine();
+                                        Console.WriteLine("  --- --- ---  Press any key to continue  --- --- ---");
                                         EndingCard(Name, LastName, Age, profession, wohen, momAge, dadAge);
 
                                     }
                                     else
                                     {
-                                        ExpressionBeforeDecision();
-                                        string answer = (Console.ReadLine()).ToString();
-                                        RestartingDecision(answer);
+                                        ElseOption();
                                     }
 
                                 }
                                 else
                                 {
-                                    ExpressionBeforeDecision();
-                                    string answer = (Console.ReadLine()).ToString();
-                                    RestartingDecision(answer);
+                                    ElseOption();
                                 }
 
                             }
                             else
                             {
-                                ExpressionBeforeDecision();
-                                string answer = (Console.ReadLine()).ToString();
-                                RestartingDecision(answer);
+                                ElseOption();
                             }
                         }
                         else
                         {
-                            ExpressionBeforeDecision();
-                            string answer = (Console.ReadLine()).ToString();
-                            RestartingDecision(answer);
+                            ElseOption();
                         }
                     }
                     else
                     {
-                        ExpressionBeforeDecision();
-                        string answer = (Console.ReadLine()).ToString();
-                        RestartingDecision(answer);
+                        ElseOption();
                     }
                 }
                 else
                 {
-                    ExpressionBeforeDecision();
-                    string answer = (Console.ReadLine()).ToString();
-                    RestartingDecision(answer);
+                    ElseOption();
                 }
             }
             else
             {
-                ExpressionBeforeDecision();
-                string answer = (Console.ReadLine()).ToString();
-                RestartingDecision(answer);
+                ElseOption();
             }
         }
 
         public static void Welcome()
         {
-            Console.WriteLine("                     --- --- --- Hello! --- --- ---");
+            Console.WriteLine("                      --- --- --- Hello! --- --- ---");
             Console.WriteLine();
             Console.WriteLine();
             Console.WriteLine("        Today I am gonna display you your data and make you a card");
             Console.WriteLine();
-            Console.WriteLine("               -- -- -- Press any key to contionue -- -- --   ");
+            Console.WriteLine("                -- -- -- Press any key to continue -- -- --   ");
             Console.ReadKey();
             Console.Clear();
 
@@ -155,6 +143,12 @@ namespace exercises
                     Main();
                 }
             }
+        }
+        public static void ElseOption()
+        {
+            ExpressionBeforeDecision();
+            string answer = (Console.ReadLine()).ToString();
+            RestartingDecision(answer);
         }
         public static void EndingCard(string name, string lastName, int myAge ,string profession, string living,int momAge, int dadAge)
         {
