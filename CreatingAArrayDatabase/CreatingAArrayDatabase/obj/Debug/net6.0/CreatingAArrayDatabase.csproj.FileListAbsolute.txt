@@ -1,0 +1,15 @@
+D:\Coding\CreatingAArrayDatabase\CreatingAArrayDatabase\bin\Debug\net6.0\CreatingAArrayDatabase.exe
+D:\Coding\CreatingAArrayDatabase\CreatingAArrayDatabase\bin\Debug\net6.0\CreatingAArrayDatabase.deps.json
+D:\Coding\CreatingAArrayDatabase\CreatingAArrayDatabase\bin\Debug\net6.0\CreatingAArrayDatabase.runtimeconfig.json
+D:\Coding\CreatingAArrayDatabase\CreatingAArrayDatabase\bin\Debug\net6.0\CreatingAArrayDatabase.dll
+D:\Coding\CreatingAArrayDatabase\CreatingAArrayDatabase\bin\Debug\net6.0\CreatingAArrayDatabase.pdb
+D:\Coding\CreatingAArrayDatabase\CreatingAArrayDatabase\obj\Debug\net6.0\CreatingAArrayDatabase.csproj.AssemblyReference.cache
+D:\Coding\CreatingAArrayDatabase\CreatingAArrayDatabase\obj\Debug\net6.0\CreatingAArrayDatabase.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\CreatingAArrayDatabase\CreatingAArrayDatabase\obj\Debug\net6.0\CreatingAArrayDatabase.AssemblyInfoInputs.cache
+D:\Coding\CreatingAArrayDatabase\CreatingAArrayDatabase\obj\Debug\net6.0\CreatingAArrayDatabase.AssemblyInfo.cs
+D:\Coding\CreatingAArrayDatabase\CreatingAArrayDatabase\obj\Debug\net6.0\CreatingAArrayDatabase.csproj.CoreCompileInputs.cache
+D:\Coding\CreatingAArrayDatabase\CreatingAArrayDatabase\obj\Debug\net6.0\CreatingAArrayDatabase.dll
+D:\Coding\CreatingAArrayDatabase\CreatingAArrayDatabase\obj\Debug\net6.0\refint\CreatingAArrayDatabase.dll
+D:\Coding\CreatingAArrayDatabase\CreatingAArrayDatabase\obj\Debug\net6.0\CreatingAArrayDatabase.pdb
+D:\Coding\CreatingAArrayDatabase\CreatingAArrayDatabase\obj\Debug\net6.0\CreatingAArrayDatabase.genruntimeconfig.cache
+D:\Coding\CreatingAArrayDatabase\CreatingAArrayDatabase\obj\Debug\net6.0\ref\CreatingAArrayDatabase.dll
