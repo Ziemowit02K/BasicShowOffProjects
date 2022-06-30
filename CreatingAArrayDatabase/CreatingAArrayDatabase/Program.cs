@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 namespace exercises
 {
     struct book
@@ -52,7 +52,7 @@ namespace exercises
                 
                 for(int i = 0; i <number; i++)
                 {
-                    if((IsItNumber(books[i].title) == false) || (IsItNumber(books[i].title) == false))
+                    if (((IsItNumber(books[i].title)) == true) || ((IsItNumber(books[i].autor) == true)))
                     {
                         books[i].title = "ERROR, wrong input";
                         books[i].autor = "ERROR, wrong input";
@@ -91,7 +91,11 @@ namespace exercises
             {
                 return true;
             }
+            else
+            {
                 return false;
+            }
+                
 
         }
         public static void Welcoming()
