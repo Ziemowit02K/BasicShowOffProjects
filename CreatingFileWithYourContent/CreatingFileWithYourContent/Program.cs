@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Text;
 
@@ -6,34 +6,33 @@ class fileexercie
 {
     public static void Main()
     {
-
+        
         try
         {
             Welcoming();
             Introduction();
-            
-
-
 
             //Creating name of file by user
             string fileNameusers = string.Empty;
             Console.WriteLine("----------------------------------------------------------------------------");
-            Console.Write("              Input name of the file (with.txt on the end) : ");
+            Console.Write("              Input name of the file: ");
             fileNameusers = Console.ReadLine();
 
             Console.Clear();
 
-            Console.Write("Input your name:");
-            string userAuthor = Console.ReadLine();
+           
 
             //Cheking the name of file
             if (IsItString(fileNameusers))
             {
 
+                Console.Write("Input your name:");
+                string userAuthor = Console.ReadLine();
+
                 string fileNameUsers = fileNameusers.ToString();
 
                 //creating file
-                string FileName = @"" + fileNameUsers + "";
+                string FileName = @"" + fileNameUsers + ".txt";
                 //checking if file exist
                 if (File.Exists(FileName))
                 {
@@ -42,75 +41,61 @@ class fileexercie
 
                 //Taking title from user
                 Console.WriteLine("----------------------------------------------------------------------------");
-                Console.Write("Input title of the file: ");
+                Console.Write("Input title of the note: ");
                 string userTitle = Console.ReadLine();
-                
-                Console.Clear();
-
-                //Taking Content from user
-                //Console.WriteLine("----------------------------------------------------------------------------");
-                //Console.Write("Input content of the file: ");
-                //string userContent = Console.ReadLine();
-                //Console.Clear();
-                                            //Instruction about how this part of programm works
-                Console.WriteLine("----------------------------------------------------------------------------");
-                Console.WriteLine("            Now we are going to take some content from you :) ");
-                Console.WriteLine("All you need to do is give us the number of lines and then write them down");
-                Console.WriteLine("         When you are ready to move to next line just click enter ");
-                Console.WriteLine("----------------------------------------------------------------------------");
-                Console.WriteLine("                         Press enter to continue");
-                Console.ReadKey();
-                Console.Clear();
-
-
-                Console.WriteLine("----------------------------------------------------------------------------");
-                Console.Write("             Input number of lines to cut the contnent in the file: ");
-                int number = Convert.ToInt32(Console.ReadLine());
-                
-                string[] ContentLines = new string[number];
-
-
-                CreatingTab(ContentLines, number);
-
-
-                if (IsItString(userTitle))
+                if (IsItString(userAuthor))
                 {
+                    Console.Clear();
 
-                    WritingToFile( FileName, ContentLines, userTitle, userAuthor);
+                    //Taking Content from user
+                    //Console.WriteLine("----------------------------------------------------------------------------");
+                    //Console.Write("Input content of the file: ");
+                    //string userContent = Console.ReadLine();
+                    //Console.Clear();
+                    //Instruction about how this part of programm works
+                    Console.WriteLine("----------------------------------------------------------------------------");
+                    Console.WriteLine("            Now we are going to take some content from you :) ");
+                    Console.WriteLine("All you need to do is give us the number of lines and then write them down");
+                    Console.WriteLine("         When you are ready to move to next line just click enter ");
+                    Console.WriteLine("----------------------------------------------------------------------------");
+                    Console.WriteLine("                         Press enter to continue");
+                    Console.ReadKey();
+                    Console.Clear();
 
-                    ReadingFromFile(FileName, userTitle);
+
+                    Console.WriteLine("----------------------------------------------------------------------------");
+                    Console.Write("             Input number of lines to cut the contnent in the file: ");
+                    int number = Convert.ToInt32(Console.ReadLine());
+
+                    string[] ContentLines = new string[number];
+
+
+                    CreatingTab(ContentLines, number);
+
+
+                    if (IsItString(userTitle))
+                    {
+
+                        WritingToFile(FileName, ContentLines, userTitle, userAuthor);
+
+                        ReadingFromFile(FileName, userTitle);
+                    }
+                    else
+                    {
+
+                        ElseInstruction();
+                    }
                 }
                 else
                 {
-                    Console.Clear();
-                    Console.WriteLine("----------------------------------------------------------------------------");
-                    Console.WriteLine("                     Please keep title not a number");
-                    Console.WriteLine("----------------------------------------------------------------------------");
-                    Console.WriteLine("                         Do you want to try again?");
-                    Console.Write("                                 Type yes or no: ");
-                    string result = Console.ReadLine();
-                    Console.WriteLine("----------------------------------------------------------------------------");
-
-                    if (IsItString(result))
-                    {
-                        result.ToLower();
-                        if (result == "yes")
-                        {
-                            Console.Clear();
-                            Console.WriteLine("----------------------------------------------------------------------------");
-                            Console.WriteLine("                         Press ENTER to continue");
-                            Console.WriteLine("----------------------------------------------------------------------------");
-                            Console.ReadKey();
-                            Main();
-                        }
-                        else
-                        {
-                            Console.Clear();
-                            Console.ReadKey();
-                        }
-                    }
+                    ElseInstruction();
                 }
+               
 
+            }
+            else
+            {
+                ElseInstruction();
             }
 
             
@@ -141,7 +126,7 @@ class fileexercie
     {
         using (System.IO.StreamWriter fileContent = new System.IO.StreamWriter(@FileName))
         {
-
+            fileContent.WriteLine(title);
             foreach (string line in tab)
             {
                 fileContent.WriteLine(line);
@@ -199,11 +184,50 @@ class fileexercie
     public static void Introduction()
     {
         Console.WriteLine("----------------------------------------------------------------------------");
-        Console.WriteLine("                 Im gonna help you to write some is file test.txt");
+        Console.WriteLine("      Im gonna help you to write some in file we will create for you");
         Console.WriteLine("                Give us a second, we will check if file exist");
         Console.WriteLine("----------------------------------------------------------------------------");
         Console.WriteLine("                         Press ENTER to continue");
         Console.ReadKey();
         Console.Clear();
     }
+    public static void ElseInstruction()
+    {
+        Console.Clear();
+        Console.WriteLine("----------------------------------------------------------------------------");
+        Console.WriteLine("                     Please keep it not a number");
+        Console.WriteLine("----------------------------------------------------------------------------");
+        Console.WriteLine("                         Do you want to try again?");
+        Console.Write("                                 Type yes or no: ");
+        string result = Console.ReadLine();
+        Console.WriteLine("----------------------------------------------------------------------------");
+
+        if (IsItString(result))
+        {
+            result.ToString();
+            
+            if (result == "yes" || result == "Yes" || result == "YES" || result == "y" || result == "Y")
+            {
+                Console.Clear();
+                Console.WriteLine("----------------------------------------------------------------------------");
+                Console.WriteLine("                         Press ENTER to continue");
+                Console.WriteLine("----------------------------------------------------------------------------");
+                Console.ReadKey();
+                Console.Clear();
+                Main();
+            }
+            else
+            {
+                Console.Clear();
+                Console.WriteLine("                                 Goodbye!");
+                Console.WriteLine("----------------------------------------------------------------------------");
+                Console.WriteLine("                         Press ENTER to continue");
+                Console.WriteLine("----------------------------------------------------------------------------");
+                Console.ReadKey();
+                Console.Clear();
+                Console.ReadKey();
+            }
+        }
     }
+
+}
