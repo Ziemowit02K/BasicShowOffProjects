@@ -1,0 +1,15 @@
+D:\Coding\Projects\CodingInCSharp_repository\Objects\BasicObjectProject\BasicObjectProject\bin\Debug\net6.0\BasicObjectProject.exe
+D:\Coding\Projects\CodingInCSharp_repository\Objects\BasicObjectProject\BasicObjectProject\bin\Debug\net6.0\BasicObjectProject.deps.json
+D:\Coding\Projects\CodingInCSharp_repository\Objects\BasicObjectProject\BasicObjectProject\bin\Debug\net6.0\BasicObjectProject.runtimeconfig.json
+D:\Coding\Projects\CodingInCSharp_repository\Objects\BasicObjectProject\BasicObjectProject\bin\Debug\net6.0\BasicObjectProject.dll
+D:\Coding\Projects\CodingInCSharp_repository\Objects\BasicObjectProject\BasicObjectProject\bin\Debug\net6.0\BasicObjectProject.pdb
+D:\Coding\Projects\CodingInCSharp_repository\Objects\BasicObjectProject\BasicObjectProject\obj\Debug\net6.0\BasicObjectProject.csproj.AssemblyReference.cache
+D:\Coding\Projects\CodingInCSharp_repository\Objects\BasicObjectProject\BasicObjectProject\obj\Debug\net6.0\BasicObjectProject.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Projects\CodingInCSharp_repository\Objects\BasicObjectProject\BasicObjectProject\obj\Debug\net6.0\BasicObjectProject.AssemblyInfoInputs.cache
+D:\Coding\Projects\CodingInCSharp_repository\Objects\BasicObjectProject\BasicObjectProject\obj\Debug\net6.0\BasicObjectProject.AssemblyInfo.cs
+D:\Coding\Projects\CodingInCSharp_repository\Objects\BasicObjectProject\BasicObjectProject\obj\Debug\net6.0\BasicObjectProject.csproj.CoreCompileInputs.cache
+D:\Coding\Projects\CodingInCSharp_repository\Objects\BasicObjectProject\BasicObjectProject\obj\Debug\net6.0\BasicObjectProject.dll
+D:\Coding\Projects\CodingInCSharp_repository\Objects\BasicObjectProject\BasicObjectProject\obj\Debug\net6.0\refint\BasicObjectProject.dll
+D:\Coding\Projects\CodingInCSharp_repository\Objects\BasicObjectProject\BasicObjectProject\obj\Debug\net6.0\BasicObjectProject.pdb
+D:\Coding\Projects\CodingInCSharp_repository\Objects\BasicObjectProject\BasicObjectProject\obj\Debug\net6.0\BasicObjectProject.genruntimeconfig.cache
+D:\Coding\Projects\CodingInCSharp_repository\Objects\BasicObjectProject\BasicObjectProject\obj\Debug\net6.0\ref\BasicObjectProject.dll
